@@ -20,6 +20,7 @@ main {
 
 .page-content {
     margin-top: 100px;
+    width: 55%;
 }
 
 /* Header section */
@@ -137,4 +138,46 @@ header > input::-ms-input-placeholder { /* Microsoft Edge */
     font-size: 15px;
     color: #B6B1B1;
     margin-top: auto;
+}
+
+/* Navigation styles */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navigation > * {
+    text-decoration: none;
+}
+
+.navigation > .nav-connector {
+    font-size: 35px;
+    color: #D6CFCF;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* Files */
+
+.files {
+    display: flex;
+    flex-direction: column;
+}
+
+.files > * {
+    text-decoration: none;
+    width: fit-content;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+.file-title {
+    font-size: 20px;
+    color: #B6B1B1;
+    margin-left: 30px;
 }
