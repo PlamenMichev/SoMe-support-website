@@ -164,11 +164,14 @@ header > input::-ms-input-placeholder { /* Microsoft Edge */
 .files {
     display: flex;
     flex-direction: column;
+    max-height: 450px;
+    flex-wrap: wrap;
 }
 
 .files > * {
     text-decoration: none;
     width: fit-content;
+    margin-bottom: 30px;
 }
 
 .file {
