@@ -18,6 +18,10 @@ main {
     justify-content: space-between;
 }
 
+.page-content {
+    margin-top: 100px;
+}
+
 /* Header section */
 
 header {
@@ -103,7 +107,7 @@ header > input::-ms-input-placeholder { /* Microsoft Edge */
 .right-nav {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 18%;
 }
 
 .right-nav > h3 {
@@ -126,7 +130,7 @@ header > input::-ms-input-placeholder { /* Microsoft Edge */
 }
 
 .links > a {
-    margin: 15px
+    margin: 12px
 }
 
 .wrapper > .credit {
