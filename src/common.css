@@ -1,0 +1,47 @@
+h1 {
+    font-size: 45px;
+    color: #76A3A7;
+}
+
+h2 {
+    font-size: 25px;
+    color: #76A3A7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6CFCF;
+}
+
+header > input {
+    font-size: 15px;
+    border-radius: 18px;
+    color: #ADADAD;
+    outline: none !important;
+    border: 1px solid #ADADAD;
+    height: 20px;
+    padding: 10px;
+    width: 30%;
+    background: url('assets/images/search-icon.svg') no-repeat scroll 7px 7px;
+    padding-left: 45px;
+}
+
+
+header > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ADADAD;
+    opacity: 1; /* Firefox */
+}
+  
+header > input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ADADAD;
+}
+  
+header > input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ADADAD;
+}
+
+.padding-body { 
+    padding: 0 50px;
+}
