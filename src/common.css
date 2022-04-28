@@ -8,6 +8,18 @@ h2 {
     color: #76A3A7;
 }
 
+h3 {
+    font-size: 25px;
+    color: #B6B1B1;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header section */
+
 header {
     display: flex;
     align-items: center;
@@ -44,4 +56,81 @@ header > input::-ms-input-placeholder { /* Microsoft Edge */
 
 .padding-body { 
     padding: 0 50px;
+}
+
+/* Left side nav section */
+
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.left-nav > h3 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.left-nav > nav {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D6CFCF;
+    height: 420px;
+}
+
+.left-nav > nav > a {
+    text-decoration: none;
+    padding: 15px 15px 15px 0px;
+    color: #B6B1B1;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4s;
+}
+
+.left-nav > nav > a.active {
+    background-color: #76A3A7;
+    color: #fff;
+}
+
+.left-nav > nav > a:hover {
+    background-color: #76A3A7;
+    color: #fff;
+}
+
+
+/* Right side nav section */
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.right-nav > h3 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    border-left: 1px solid #D6CFCF;
+    padding-left: 30px;
+}
+
+.wrapper > .links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.links > a {
+    margin: 15px
+}
+
+.wrapper > .credit {
+    font-size: 15px;
+    color: #B6B1B1;
+    margin-top: auto;
 }
