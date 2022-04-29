@@ -14,6 +14,16 @@
     line-height: 1.25;
 }
 
+.campaign-download {
+    font-weight: 400;
+}
+
+.campaign-download > a {
+    text-decoration: none;
+    color: #76A3A7;
+}
+
+
 .campain-name {
     font-style: italic;
     font-weight: 400;
